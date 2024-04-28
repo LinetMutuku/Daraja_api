@@ -1,0 +1,757 @@
+INFO 2024-03-28 08:30:58,225 autoreload Watching for file changes with StatReloader
+DEBUG 2024-03-28 08:30:58,227 autoreload Waiting for apps ready_event.
+DEBUG 2024-03-28 08:30:58,248 autoreload Apps ready_event triggered. Sending autoreload_started signal.
+DEBUG 2024-03-28 08:30:58,363 autoreload Watching dir C:\Users\hp\PycharmProjectslL\daraja\daraja\templates with glob **/*.
+DEBUG 2024-03-28 08:30:58,364 autoreload Watching dir C:\Users\hp\PycharmProjectslL\daraja\daraja\locale with glob **/*.mo.
+DEBUG 2024-03-28 08:30:58,364 autoreload Watching dir C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\locale with glob **/*.mo.
+DEBUG 2024-03-28 08:30:58,675 utils (0.015) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+DEBUG 2024-03-28 08:30:59,337 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\base.py first seen with mtime 1707301440.7547238
+DEBUG 2024-03-28 08:30:59,337 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\timeouts.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,337 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\ddl_references.py first seen with mtime 1707301440.5968127
+DEBUG 2024-03-28 08:30:59,338 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\storage\memory.py first seen with mtime 1707301440.4828796
+DEBUG 2024-03-28 08:30:59,338 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\backends\django.py first seen with mtime 1707301441.0655458
+DEBUG 2024-03-28 08:30:59,338 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\engine\__init__.py first seen with mtime 1707301431.9187834
+DEBUG 2024-03-28 08:30:59,338 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\sql\constants.py first seen with mtime 1707301440.8196864
+DEBUG 2024-03-28 08:30:59,339 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_decimal.pyd first seen with mtime 1692878398.0
+DEBUG 2024-03-28 08:30:59,339 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\forms\boundfield.py first seen with mtime 1707301440.8386745
+DEBUG 2024-03-28 08:30:59,339 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\json\scanner.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,340 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\decorators\csrf.py first seen with mtime 1707301441.2254531
+DEBUG 2024-03-28 08:30:59,340 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\version.py first seen with mtime 1707301441.193472
+DEBUG 2024-03-28 08:30:59,340 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\sslproto.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,340 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\inspect.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,341 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_utils.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,341 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\encodings\utf_8.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,341 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\pkgutil.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,342 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\keywords.py first seen with mtime 1707301431.9057894
+DEBUG 2024-03-28 08:30:59,342 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\copyreg.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,342 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\graphlib.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,342 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\textwrap.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,342 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\dateformat.py first seen with mtime 1707301441.1405036
+DEBUG 2024-03-28 08:30:59,343 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\_policybase.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,343 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,343 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\sql.py first seen with mtime 1707301431.9117875
+DEBUG 2024-03-28 08:30:59,343 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\http\client.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,343 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\futures.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,344 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\threading.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,345 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\exceptions.py first seen with mtime 1707301440.7167451
+DEBUG 2024-03-28 08:30:59,345 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\asgiref\sync.py first seen with mtime 1707301432.6823456
+DEBUG 2024-03-28 08:30:59,345 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\__init__.py first seen with mtime 1707301460.6987188
+DEBUG 2024-03-28 08:30:59,346 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\apps.py first seen with mtime 1707301436.1413658
+DEBUG 2024-03-28 08:30:59,346 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\_os.py first seen with mtime 1707301441.1225128
+DEBUG 2024-03-28 08:30:59,347 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\storage\__init__.py first seen with mtime 1707301440.4748833
+DEBUG 2024-03-28 08:30:59,347 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\parser.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,348 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\sql\__init__.py first seen with mtime 1707301440.8166873
+DEBUG 2024-03-28 08:30:59,350 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\apps.py first seen with mtime 1707301462.5076833
+DEBUG 2024-03-28 08:30:59,351 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\weakref.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,351 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\backends\__init__.py first seen with mtime 1707301439.4114935
+DEBUG 2024-03-28 08:30:59,352 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\dates.py first seen with mtime 1707301441.1445
+DEBUG 2024-03-28 08:30:59,353 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\model_checks.py first seen with mtime 1707301440.437905
+DEBUG 2024-03-28 08:30:59,353 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\loaders\cached.py first seen with mtime 1707301441.076539
+DEBUG 2024-03-28 08:30:59,354 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\pathlib.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,354 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\fields\related_descriptors.py first seen with mtime 1707301440.7976978
+DEBUG 2024-03-28 08:30:59,356 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\module_loading.py first seen with mtime 1707301441.177482
+DEBUG 2024-03-28 08:30:59,356 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\transports.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,357 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\mail\__init__.py first seen with mtime 1707301440.4948719
+DEBUG 2024-03-28 08:30:59,357 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\handlers\__init__.py first seen with mtime 1707301440.4858768
+DEBUG 2024-03-28 08:30:59,358 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\response.py first seen with mtime 1707301441.0565503
+DEBUG 2024-03-28 08:30:59,358 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py first seen with mtime 1711603855.443703
+DEBUG 2024-03-28 08:30:59,358 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\urllib\request.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,359 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\http\cookie.py first seen with mtime 1707301441.009577
+DEBUG 2024-03-28 08:30:59,359 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\temp.py first seen with mtime 1707301440.4668884
+DEBUG 2024-03-28 08:30:59,359 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\operations\base.py first seen with mtime 1707301440.740733
+DEBUG 2024-03-28 08:30:59,359 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\functions\text.py first seen with mtime 1707301440.8126907
+DEBUG 2024-03-28 08:30:59,359 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\autoreload.py first seen with mtime 1707301441.12851
+DEBUG 2024-03-28 08:30:59,359 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\filters\right_margin.py first seen with mtime 1707301431.9417694
+DEBUG 2024-03-28 08:30:59,360 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\_markupbase.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,360 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\forms\widgets.py first seen with mtime 1707301440.8536673
+DEBUG 2024-03-28 08:30:59,360 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\__init__.py first seen with mtime 1707301440.3939297
+DEBUG 2024-03-28 08:30:59,361 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\compatibility\django_4_0.py first seen with mtime 1707301440.448899
+DEBUG 2024-03-28 08:30:59,362 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\decorators.py first seen with mtime 1707301433.7887132
+DEBUG 2024-03-28 08:30:59,362 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\urls.py first seen with mtime 1707301440.4449005
+DEBUG 2024-03-28 08:30:59,363 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\heapq.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,364 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\http\__init__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,364 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\templatetags\__init__.py first seen with mtime 1707301441.081538
+DEBUG 2024-03-28 08:30:59,365 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\__init__.py first seen with mtime 1707301440.7497263
+DEBUG 2024-03-28 08:30:59,366 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\templatetags\log.py first seen with mtime 1707301435.029002
+DEBUG 2024-03-28 08:30:59,366 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\storage\handler.py first seen with mtime 1707301440.48088
+DEBUG 2024-03-28 08:30:59,366 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\__init__.py first seen with mtime 1707301441.206465
+DEBUG 2024-03-28 08:30:59,366 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\sqlite3\creation.py first seen with mtime 1707301440.6917598
+DEBUG 2024-03-28 08:30:59,367 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\headerregistry.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,367 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\operator.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,367 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\wsgiref\handlers.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,367 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\messages\constants.py first seen with mtime 1707301438.5210023
+DEBUG 2024-03-28 08:30:59,367 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\backends\__init__.py first seen with mtime 1707301441.061548
+DEBUG 2024-03-28 08:30:59,367 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\encoding.py first seen with mtime 1707301441.1534953
+DEBUG 2024-03-28 08:30:59,368 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\lexer.py first seen with mtime 1707301431.9097877
+DEBUG 2024-03-28 08:30:59,368 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\locks.py first seen with mtime 1707301440.4638894
+DEBUG 2024-03-28 08:30:59,368 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\storage\mixins.py first seen with mtime 1707301440.484878
+DEBUG 2024-03-28 08:30:59,368 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_asyncio.pyd first seen with mtime 1692878400.0
+DEBUG 2024-03-28 08:30:59,368 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\database.py first seen with mtime 1707301440.4319084
+DEBUG 2024-03-28 08:30:59,368 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\__init__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,369 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\enum.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,369 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\deconstruct.py first seen with mtime 1707301441.1455002
+DEBUG 2024-03-28 08:30:59,369 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\middleware.py first seen with mtime 1707301435.5586977
+DEBUG 2024-03-28 08:30:59,369 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\admin.py first seen with mtime 1707635362.8313265
+DEBUG 2024-03-28 08:30:59,369 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\deletion.py first seen with mtime 1707301440.7607195
+DEBUG 2024-03-28 08:30:59,369 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\pickle.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,370 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\_compression.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,370 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\compatibility\__init__.py first seen with mtime 1707301440.4459002
+DEBUG 2024-03-28 08:30:59,370 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\secrets.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,370 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_list.py first seen with mtime 1707301435.022005
+DEBUG 2024-03-28 08:30:59,371 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\socketserver.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,371 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\filters\reindent.py first seen with mtime 1707301431.9387715
+DEBUG 2024-03-28 08:30:59,371 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_socket.pyd first seen with mtime 1692878400.0
+DEBUG 2024-03-28 08:30:59,372 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\enums.py first seen with mtime 1707301440.762719
+DEBUG 2024-03-28 08:30:59,372 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\logging\handlers.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,372 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\engine\statement_splitter.py first seen with mtime 1707301431.926778
+DEBUG 2024-03-28 08:30:59,372 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,372 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\__init__.py first seen with mtime 1707301440.426912
+DEBUG 2024-03-28 08:30:59,372 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\checks.py first seen with mtime 1707301433.7877123
+DEBUG 2024-03-28 08:30:59,373 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\html\entities.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,373 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\__init__.py first seen with mtime 1707301439.4004986
+DEBUG 2024-03-28 08:30:59,373 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\models.py first seen with mtime 1707301439.4084947
+DEBUG 2024-03-28 08:30:59,373 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\forms\fields.py first seen with mtime 1707301440.8406737
+DEBUG 2024-03-28 08:30:59,373 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\templatetags\i18n.py first seen with mtime 1707301441.085533
+DEBUG 2024-03-28 08:30:59,373 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\dis.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,373 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\lzma.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,374 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\views\__init__.py first seen with mtime 1707301435.0310006
+DEBUG 2024-03-28 08:30:59,374 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\_header_value_parser.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,374 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\signals.py first seen with mtime 1707301435.5656936
+DEBUG 2024-03-28 08:30:59,374 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\base\validation.py first seen with mtime 1707301440.6178038
+DEBUG 2024-03-28 08:30:59,374 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\base.py first seen with mtime 1707301440.4598925
+DEBUG 2024-03-28 08:30:59,375 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\generator.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,375 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\__init__.py first seen with mtime 1707301440.5898175
+DEBUG 2024-03-28 08:30:59,375 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\platform.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,375 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\query_utils.py first seen with mtime 1707301440.7767115
+DEBUG 2024-03-28 08:30:59,375 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\policy.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,375 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\fields\json.py first seen with mtime 1707301440.7897034
+DEBUG 2024-03-28 08:30:59,375 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\filters\aligned_indent.py first seen with mtime 1707301431.931775
+DEBUG 2024-03-28 08:30:59,376 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\mail\utils.py first seen with mtime 1707301440.4988706
+DEBUG 2024-03-28 08:30:59,376 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\regex_helper.py first seen with mtime 1707301441.1804826
+DEBUG 2024-03-28 08:30:59,376 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\loaders\filesystem.py first seen with mtime 1707301441.0785372
+DEBUG 2024-03-28 08:30:59,376 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\templatetags\l10n.py first seen with mtime 1707301441.0875328
+DEBUG 2024-03-28 08:30:59,376 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\uploadhandler.py first seen with mtime 1707301440.4708867
+DEBUG 2024-03-28 08:30:59,376 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\functional.py first seen with mtime 1707301441.159492
+DEBUG 2024-03-28 08:30:59,377 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\management\commands\runserver.py first seen with mtime 1707301440.547842
+DEBUG 2024-03-28 08:30:59,378 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\tempfile.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,380 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\translation\reloader.py first seen with mtime 1707301441.1984692
+DEBUG 2024-03-28 08:30:59,380 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\__init__.py first seen with mtime 1707301432.9721978
+DEBUG 2024-03-28 08:30:59,380 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\base.py first seen with mtime 1707301441.0375624
+DEBUG 2024-03-28 08:30:59,380 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\getpass.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,380 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\utils.py first seen with mtime 1707301440.7807097
+DEBUG 2024-03-28 08:30:59,381 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\coroutines.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,381 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\base\introspection.py first seen with mtime 1707301440.6108103
+DEBUG 2024-03-28 08:30:59,381 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\middleware\cache.py first seen with mtime 1707301441.0185726
+DEBUG 2024-03-28 08:30:59,381 autoreload File C:\Program Files\JetBrains\PyCharm 2023.3.1\plugins\python\helpers\pycharm_matplotlib_backend\sitecustomize.py first seen with mtime 1702340262.0
+DEBUG 2024-03-28 08:30:59,381 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\header.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,382 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_bz2.pyd first seen with mtime 1692878400.0
+DEBUG 2024-03-28 08:30:59,382 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\templatetags\__init__.py first seen with mtime 1707301435.020008
+DEBUG 2024-03-28 08:30:59,382 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\functions\math.py first seen with mtime 1707301440.8086922
+DEBUG 2024-03-28 08:30:59,382 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\actions.py first seen with mtime 1707301433.783716
+DEBUG 2024-03-28 08:30:59,382 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\forms\formsets.py first seen with mtime 1707301440.844671
+DEBUG 2024-03-28 08:30:59,382 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\mime\nonmultipart.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,383 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\utils.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,383 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\sql\datastructures.py first seen with mtime 1707301440.8216858
+DEBUG 2024-03-28 08:30:59,383 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\conf\__init__.py first seen with mtime 1707301432.9851718
+DEBUG 2024-03-28 08:30:59,383 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\staticfiles\management\commands\__init__.py first seen with mtime 1707301440.380937
+DEBUG 2024-03-28 08:30:59,383 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\zoneinfo\__init__.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,383 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\security\__init__.py first seen with mtime 1707301440.449897
+DEBUG 2024-03-28 08:30:59,384 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\safestring.py first seen with mtime 1707301441.1824777
+DEBUG 2024-03-28 08:30:59,384 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\conf\locale\__init__.py first seen with mtime 1707301433.0001652
+DEBUG 2024-03-28 08:30:59,384 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\library.py first seen with mtime 1707301441.0515535
+DEBUG 2024-03-28 08:30:59,384 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\duration.py first seen with mtime 1707301441.1514962
+DEBUG 2024-03-28 08:30:59,384 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\wsgi.py first seen with mtime 1707301440.4069238
+DEBUG 2024-03-28 08:30:59,384 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\dispatch\dispatcher.py first seen with mtime 1707301440.8326788
+DEBUG 2024-03-28 08:30:59,385 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\uuid.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,385 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\fields\reverse_related.py first seen with mtime 1707301440.8016963
+DEBUG 2024-03-28 08:30:59,385 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\apps.py first seen with mtime 1707301435.5417078
+DEBUG 2024-03-28 08:30:59,386 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\keyword.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,386 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\exceptions.py first seen with mtime 1707301431.9007928
+DEBUG 2024-03-28 08:30:59,386 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\mime\multipart.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,386 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\signing.py first seen with mtime 1707301440.4039237
+DEBUG 2024-03-28 08:30:59,386 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\_virtualenv.py first seen with mtime 1707301401.114316
+DEBUG 2024-03-28 08:30:59,386 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\models.py first seen with mtime 1707301433.7997057
+DEBUG 2024-03-28 08:30:59,387 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\cache\backends\base.py first seen with mtime 1707301440.413919
+DEBUG 2024-03-28 08:30:59,387 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\storage\base.py first seen with mtime 1707301440.4768827
+DEBUG 2024-03-28 08:30:59,387 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\mime\message.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,387 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\signals.py first seen with mtime 1707301440.598814
+DEBUG 2024-03-28 08:30:59,387 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\backends\base.py first seen with mtime 1707301439.4144902
+DEBUG 2024-03-28 08:30:59,387 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_zoneinfo.pyd first seen with mtime 1692878400.0
+DEBUG 2024-03-28 08:30:59,388 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,388 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\context.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,388 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\__init__.py first seen with mtime 1707301440.458893
+DEBUG 2024-03-28 08:30:59,388 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\utils.py first seen with mtime 1707301440.592818
+DEBUG 2024-03-28 08:30:59,388 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\handlers\base.py first seen with mtime 1707301440.4898746
+DEBUG 2024-03-28 08:30:59,389 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\utils.py first seen with mtime 1707301440.6008115
+DEBUG 2024-03-28 08:30:59,389 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\debug.py first seen with mtime 1707301441.210463
+DEBUG 2024-03-28 08:30:59,389 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\views.py first seen with mtime 1707301436.154358
+DEBUG 2024-03-28 08:30:59,389 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\dispatch\__init__.py first seen with mtime 1707301440.8316796
+DEBUG 2024-03-28 08:30:59,389 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\calendar.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,389 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\functools.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,389 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\tokens.py first seen with mtime 1707301431.9137857
+DEBUG 2024-03-28 08:30:59,390 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\fractions.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,390 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\fields\files.py first seen with mtime 1707301440.785705
+DEBUG 2024-03-28 08:30:59,390 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\charset.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,390 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\backends\base.py first seen with mtime 1707301441.0645454
+DEBUG 2024-03-28 08:30:59,390 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\admin.py first seen with mtime 1707301435.539709
+DEBUG 2024-03-28 08:30:59,390 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\__init__.py first seen with mtime 1707301441.0345645
+DEBUG 2024-03-28 08:30:59,391 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\runners.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,391 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\concurrent\__init__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,391 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,391 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\options.py first seen with mtime 1707301440.772713
+DEBUG 2024-03-28 08:30:59,391 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\iterators.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,391 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\urls\exceptions.py first seen with mtime 1707301441.1155157
+DEBUG 2024-03-28 08:30:59,392 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\generic\base.py first seen with mtime 1707301441.2364485
+DEBUG 2024-03-28 08:30:59,392 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\shutil.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,392 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\feedparser.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,392 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\staticfiles\utils.py first seen with mtime 1707301440.3759396
+DEBUG 2024-03-28 08:30:59,394 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\operations\special.py first seen with mtime 1707301440.7477267
+DEBUG 2024-03-28 08:30:59,394 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\paginator.py first seen with mtime 1707301440.3999267
+DEBUG 2024-03-28 08:30:59,395 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\base\creation.py first seen with mtime 1707301440.6078088
+DEBUG 2024-03-28 08:30:59,395 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\sites.py first seen with mtime 1707301433.8047023
+DEBUG 2024-03-28 08:30:59,395 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\_parseaddr.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,395 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\dateparse.py first seen with mtime 1707301441.1425006
+DEBUG 2024-03-28 08:30:59,395 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\decimal.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,396 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\messages.py first seen with mtime 1707301440.4359057
+DEBUG 2024-03-28 08:30:59,396 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\traceback.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,396 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\fields.py first seen with mtime 1707301436.145364
+DEBUG 2024-03-28 08:30:59,396 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_ssl.pyd first seen with mtime 1692878400.0
+DEBUG 2024-03-28 08:30:59,396 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\handlers\asgi.py first seen with mtime 1707301440.4878788
+DEBUG 2024-03-28 08:30:59,396 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\proactor_events.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,397 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\connection.py first seen with mtime 1707301441.1355047
+DEBUG 2024-03-28 08:30:59,397 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\queue.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,397 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\mime\text.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,397 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\re\__init__.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,397 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\fields\related_lookups.py first seen with mtime 1707301440.7996974
+DEBUG 2024-03-28 08:30:59,397 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\utils.py first seen with mtime 1707301433.8087008
+DEBUG 2024-03-28 08:30:59,398 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\selector_events.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,398 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,398 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\cache\backends\__init__.py first seen with mtime 1707301440.4119198
+DEBUG 2024-03-28 08:30:59,398 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\aggregates.py first seen with mtime 1707301440.7517242
+DEBUG 2024-03-28 08:30:59,398 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\servers\basehttp.py first seen with mtime 1707301440.5878186
+DEBUG 2024-03-28 08:30:59,398 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\numberformat.py first seen with mtime 1707301441.1784806
+DEBUG 2024-03-28 08:30:59,399 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\forms\__init__.py first seen with mtime 1707301440.8366766
+DEBUG 2024-03-28 08:30:59,399 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\http\response.py first seen with mtime 1707301441.0155737
+DEBUG 2024-03-28 08:30:59,399 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\termcolors.py first seen with mtime 1707301441.1844766
+DEBUG 2024-03-28 08:30:59,399 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\re\_parser.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,399 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\forms\models.py first seen with mtime 1707301440.8476698
+DEBUG 2024-03-28 08:30:59,399 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sites\requests.py first seen with mtime 1707301439.9132051
+DEBUG 2024-03-28 08:30:59,399 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\urllib\parse.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,400 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\__init__.py first seen with mtime 1707301440.7027524
+DEBUG 2024-03-28 08:30:59,400 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\messages\storage\__init__.py first seen with mtime 1707301438.5329957
+DEBUG 2024-03-28 08:30:59,400 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\select.pyd first seen with mtime 1692878398.0
+DEBUG 2024-03-28 08:30:59,400 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\middleware\__init__.py first seen with mtime 1707301441.0165732
+DEBUG 2024-03-28 08:30:59,400 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\utils.py first seen with mtime 1707301440.4728873
+DEBUG 2024-03-28 08:30:59,400 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\urls\converters.py first seen with mtime 1707301441.1135178
+DEBUG 2024-03-28 08:30:59,401 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\translation\trans_real.py first seen with mtime 1707301441.2044656
+DEBUG 2024-03-28 08:30:59,401 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\nturl2path.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,401 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\queues.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,401 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\wsgiref\__init__.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,401 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\staticfiles\apps.py first seen with mtime 1707301440.3619478
+DEBUG 2024-03-28 08:30:59,401 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\log.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,402 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\lookups.py first seen with mtime 1707301440.7687156
+DEBUG 2024-03-28 08:30:59,402 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\serializers\json.py first seen with mtime 1707301440.5738277
+DEBUG 2024-03-28 08:30:59,402 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\collections\abc.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,402 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\urls\conf.py first seen with mtime 1707301441.1115184
+DEBUG 2024-03-28 08:30:59,402 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\query.py first seen with mtime 1707301440.7757113
+DEBUG 2024-03-28 08:30:59,402 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sites\shortcuts.py first seen with mtime 1707301439.9152043
+DEBUG 2024-03-28 08:30:59,402 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\quopri.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,403 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\errors.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,403 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\autoreload.py first seen with mtime 1707301441.0355637
+DEBUG 2024-03-28 08:30:59,403 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\apps.py first seen with mtime 1707301433.7857137
+DEBUG 2024-03-28 08:30:59,403 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,403 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\opcode.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,403 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\asgiref\local.py first seen with mtime 1707301432.676349
+DEBUG 2024-03-28 08:30:59,404 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\signal.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,404 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\reduction.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,404 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\utils.py first seen with mtime 1707301441.0605485
+DEBUG 2024-03-28 08:30:59,404 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\_compat_pickle.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,404 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,404 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\__future__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,404 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\templatetags\base.py first seen with mtime 1707301435.0270033
+DEBUG 2024-03-28 08:30:59,405 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\admin.py first seen with mtime 1707301436.1393661
+DEBUG 2024-03-28 08:30:59,405 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\contentmanager.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,405 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\staticfiles\checks.py first seen with mtime 1707301440.3639462
+DEBUG 2024-03-28 08:30:59,405 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\generic\__init__.py first seen with mtime 1707301441.2344482
+DEBUG 2024-03-28 08:30:59,405 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\filters\__init__.py first seen with mtime 1707301431.9287772
+DEBUG 2024-03-28 08:30:59,405 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\formats.py first seen with mtime 1707301441.1574929
+DEBUG 2024-03-28 08:30:59,406 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\__init__.py first seen with mtime 1707301433.779717
+DEBUG 2024-03-28 08:30:59,406 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\security\base.py first seen with mtime 1707301440.4528959
+DEBUG 2024-03-28 08:30:59,406 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\ssl.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,406 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\wsgiref\simple_server.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,406 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_urls.py first seen with mtime 1707301435.0260031
+DEBUG 2024-03-28 08:30:59,406 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_lzma.pyd first seen with mtime 1692878400.0
+DEBUG 2024-03-28 08:30:59,407 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_queue.pyd first seen with mtime 1692878398.0
+DEBUG 2024-03-28 08:30:59,407 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\forms\renderers.py first seen with mtime 1707301440.8486702
+DEBUG 2024-03-28 08:30:59,407 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\async_checks.py first seen with mtime 1707301440.4279108
+DEBUG 2024-03-28 08:30:59,408 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\decorators\common.py first seen with mtime 1707301441.2234547
+DEBUG 2024-03-28 08:30:59,408 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\smartif.py first seen with mtime 1707301441.0585494
+DEBUG 2024-03-28 08:30:59,408 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\constants.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,408 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\html\parser.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,408 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\filters\tokens.py first seen with mtime 1707301431.943768
+DEBUG 2024-03-28 08:30:59,409 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\urls\resolvers.py first seen with mtime 1707301441.1175156
+DEBUG 2024-03-28 08:30:59,409 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\migration.py first seen with mtime 1707301440.7247398
+DEBUG 2024-03-28 08:30:59,409 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\messages\__init__.py first seen with mtime 1707301438.5160053
+DEBUG 2024-03-28 08:30:59,410 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\options.py first seen with mtime 1707301433.8027043
+DEBUG 2024-03-28 08:30:59,411 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\i18n.py first seen with mtime 1707301441.2144601
+DEBUG 2024-03-28 08:30:59,412 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\encodings\aliases.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,412 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\tokens.py first seen with mtime 1707301435.567693
+DEBUG 2024-03-28 08:30:59,412 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\mime\__init__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,413 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\mimetypes.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,413 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\forms\utils.py first seen with mtime 1707301440.8506691
+DEBUG 2024-03-28 08:30:59,413 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\base\client.py first seen with mtime 1707301440.6058092
+DEBUG 2024-03-28 08:30:59,413 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\collections\__init__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,413 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\management\__init__.py first seen with mtime 1707301436.090395
+DEBUG 2024-03-28 08:30:59,414 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\token.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,414 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\base64mime.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,414 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\sqlite3\schema.py first seen with mtime 1707301440.6997547
+DEBUG 2024-03-28 08:30:59,414 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\loaders\base.py first seen with mtime 1707301441.075539
+DEBUG 2024-03-28 08:30:59,414 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\types.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,415 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\utils.py first seen with mtime 1707301440.7357364
+DEBUG 2024-03-28 08:30:59,415 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\signals.py first seen with mtime 1707301440.401925
+DEBUG 2024-03-28 08:30:59,415 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\middleware\security.py first seen with mtime 1707301441.0325644
+DEBUG 2024-03-28 08:30:59,415 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\cache.py first seen with mtime 1707301441.1315076
+DEBUG 2024-03-28 08:30:59,415 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\exceptions.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,415 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\argparse.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,416 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\security\csrf.py first seen with mtime 1707301440.4548948
+DEBUG 2024-03-28 08:30:59,416 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\signals.py first seen with mtime 1707301440.7787094
+DEBUG 2024-03-28 08:30:59,416 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\cache\__init__.py first seen with mtime 1707301440.4089205
+DEBUG 2024-03-28 08:30:59,416 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\struct.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,416 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\urllib\error.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,416 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\socket.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,416 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\functions\__init__.py first seen with mtime 1707301440.8036964
+DEBUG 2024-03-28 08:30:59,417 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\staggered.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,417 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\html\__init__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,417 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\importlib\_abc.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,417 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\fields\__init__.py first seen with mtime 1707301440.7837074
+DEBUG 2024-03-28 08:30:59,417 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\filters\output.py first seen with mtime 1707301431.935773
+DEBUG 2024-03-28 08:30:59,417 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\handlers\wsgi.py first seen with mtime 1707301440.492873
+DEBUG 2024-03-28 08:30:59,418 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\registry.py first seen with mtime 1707301440.4399035
+DEBUG 2024-03-28 08:30:59,418 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\glob.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,418 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\text.py first seen with mtime 1707301441.1864755
+DEBUG 2024-03-28 08:30:59,418 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\log.py first seen with mtime 1707301441.173484
+DEBUG 2024-03-28 08:30:59,418 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\engine.py first seen with mtime 1707301441.0475557
+DEBUG 2024-03-28 08:30:59,418 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\loader.py first seen with mtime 1707301441.0535522
+DEBUG 2024-03-28 08:30:59,418 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\defaulttags.py first seen with mtime 1707301441.0455565
+DEBUG 2024-03-28 08:30:59,419 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,419 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\urls\base.py first seen with mtime 1707301441.109521
+DEBUG 2024-03-28 08:30:59,419 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\fnmatch.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,419 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\generic\edit.py first seen with mtime 1707301441.241445
+DEBUG 2024-03-28 08:30:59,419 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\engine\filter_stack.py first seen with mtime 1707301431.9207816
+DEBUG 2024-03-28 08:30:59,419 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\__init__.py first seen with mtime 1707301436.1363676
+DEBUG 2024-03-28 08:30:59,421 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\sqlite3\client.py first seen with mtime 1707301440.6907592
+DEBUG 2024-03-28 08:30:59,421 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\templatetags\tz.py first seen with mtime 1707301441.0905313
+DEBUG 2024-03-28 08:30:59,421 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\apps\__init__.py first seen with mtime 1707301432.9771767
+DEBUG 2024-03-28 08:30:59,421 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\staticfiles\finders.py first seen with mtime 1707301440.3659463
+DEBUG 2024-03-28 08:30:59,421 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\base64.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,421 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\models.py first seen with mtime 1707301436.149361
+DEBUG 2024-03-28 08:30:59,422 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\__init__.py first seen with mtime 1707301462.5626535
+DEBUG 2024-03-28 08:30:59,422 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\manage.py first seen with mtime 1707301460.621764
+DEBUG 2024-03-28 08:30:59,422 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\models.py first seen with mtime 1707310131.3892388
+DEBUG 2024-03-28 08:30:59,422 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\decorators\cache.py first seen with mtime 1707301441.2204568
+DEBUG 2024-03-28 08:30:59,422 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\functions\mixins.py first seen with mtime 1707301440.8106904
+DEBUG 2024-03-28 08:30:59,422 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\__init__.py first seen with mtime 1707301431.8927968
+DEBUG 2024-03-28 08:30:59,422 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\messages\utils.py first seen with mtime 1707301438.5279977
+DEBUG 2024-03-28 08:30:59,423 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\re\_compiler.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,423 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\messages\storage\base.py first seen with mtime 1707301438.534994
+DEBUG 2024-03-28 08:30:59,423 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\base\features.py first seen with mtime 1707301440.6088076
+DEBUG 2024-03-28 08:30:59,423 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\fields\mixins.py first seen with mtime 1707301440.7917013
+DEBUG 2024-03-28 08:30:59,423 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\copy.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,423 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\hashable.py first seen with mtime 1707301441.160491
+DEBUG 2024-03-28 08:30:59,424 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\itercompat.py first seen with mtime 1707301441.170485
+DEBUG 2024-03-28 08:30:59,424 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\timesince.py first seen with mtime 1707301441.187476
+DEBUG 2024-03-28 08:30:59,424 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\loaders\__init__.py first seen with mtime 1707301441.0715415
+DEBUG 2024-03-28 08:30:59,424 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\bisect.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,424 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\ctypes\__init__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,424 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\difflib.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,425 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\translation\__init__.py first seen with mtime 1707301441.1964698
+DEBUG 2024-03-28 08:30:59,425 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\defaultfilters.py first seen with mtime 1707301441.043558
+DEBUG 2024-03-28 08:30:59,425 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\exceptions.py first seen with mtime 1707301433.7907102
+DEBUG 2024-03-28 08:30:59,425 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\zoneinfo\_common.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,425 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\urllib\response.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,425 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\loader_tags.py first seen with mtime 1707301441.0545518
+DEBUG 2024-03-28 08:30:59,425 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\http\__init__.py first seen with mtime 1707301441.0075803
+DEBUG 2024-03-28 08:30:59,426 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\templatetags\cache.py first seen with mtime 1707301441.0835361
+DEBUG 2024-03-28 08:30:59,426 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\forms\forms.py first seen with mtime 1707301440.8426728
+DEBUG 2024-03-28 08:30:59,426 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\password_validation.py first seen with mtime 1707301435.5636954
+DEBUG 2024-03-28 08:30:59,427 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_overlapped.pyd first seen with mtime 1692878398.0
+DEBUG 2024-03-28 08:30:59,427 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\cache\utils.py first seen with mtime 1707301440.4109197
+DEBUG 2024-03-28 08:30:59,428 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\sqlite3\__init__.py first seen with mtime 1707301440.6857622
+DEBUG 2024-03-28 08:30:59,429 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\indexes.py first seen with mtime 1707301440.7667186
+DEBUG 2024-03-28 08:30:59,429 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\loaders\app_directories.py first seen with mtime 1707301441.0735412
+DEBUG 2024-03-28 08:30:59,429 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\validators.py first seen with mtime 1707301435.570691
+DEBUG 2024-03-28 08:30:59,430 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\staticfiles\views.py first seen with mtime 1707301440.3769395
+DEBUG 2024-03-28 08:30:59,430 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\fields\related.py first seen with mtime 1707301440.7956998
+DEBUG 2024-03-28 08:30:59,430 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\selectors.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,431 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\apps.py first seen with mtime 1707301439.4024975
+DEBUG 2024-03-28 08:30:59,431 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\statistics.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,431 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\re\_casefix.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,431 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\hashers.py first seen with mtime 1707301435.5567
+DEBUG 2024-03-28 08:30:59,431 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\serializers\base.py first seen with mtime 1707301440.5718277
+DEBUG 2024-03-28 08:30:59,431 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\typing.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,432 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\apps\registry.py first seen with mtime 1707301432.9821737
+DEBUG 2024-03-28 08:30:59,432 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\lorem_ipsum.py first seen with mtime 1707301441.1754837
+DEBUG 2024-03-28 08:30:59,432 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\storage\filesystem.py first seen with mtime 1707301440.4778824
+DEBUG 2024-03-28 08:30:59,432 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_ctypes.pyd first seen with mtime 1692878398.0
+DEBUG 2024-03-28 08:30:59,432 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\middleware\csrf.py first seen with mtime 1707301441.024569
+DEBUG 2024-03-28 08:30:59,432 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\management\__init__.py first seen with mtime 1707301440.512862
+DEBUG 2024-03-28 08:30:59,433 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_uuid.pyd first seen with mtime 1692878398.0
+DEBUG 2024-03-28 08:30:59,433 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\management\commands\__init__.py first seen with mtime 1707301440.522856
+DEBUG 2024-03-28 08:30:59,433 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\operations\fields.py first seen with mtime 1707301440.7437284
+DEBUG 2024-03-28 08:30:59,433 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\urls\__init__.py first seen with mtime 1707301441.1075208
+DEBUG 2024-03-28 08:30:59,433 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,433 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\random.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,434 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\_distutils_hack\__init__.py first seen with mtime 1707301406.1984055
+DEBUG 2024-03-28 08:30:59,434 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\locks.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,434 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\transaction.py first seen with mtime 1707301440.5908175
+DEBUG 2024-03-28 08:30:59,434 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\threads.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,434 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_hashlib.pyd first seen with mtime 1692878400.0
+DEBUG 2024-03-28 08:30:59,434 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\sqlite3\features.py first seen with mtime 1707301440.6937575
+DEBUG 2024-03-28 08:30:59,435 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\base_user.py first seen with mtime 1707301435.5457058
+DEBUG 2024-03-28 08:30:59,435 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\urls.py first seen with mtime 1711603571.947593
+DEBUG 2024-03-28 08:30:59,435 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\sql\query.py first seen with mtime 1707301440.8246832
+DEBUG 2024-03-28 08:30:59,435 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\mime\base.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,435 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\context.py first seen with mtime 1707301441.0395596
+DEBUG 2024-03-28 08:30:59,435 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\engine\grouping.py first seen with mtime 1707301431.9217806
+DEBUG 2024-03-28 08:30:59,436 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\format_helpers.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,436 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\forms.py first seen with mtime 1707301435.5547009
+DEBUG 2024-03-28 08:30:59,436 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_futures.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,436 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\locale.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,436 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\move.py first seen with mtime 1707301440.4658885
+DEBUG 2024-03-28 08:30:59,436 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\ctypes\_endian.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,436 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\utils.py first seen with mtime 1707301431.9167838
+DEBUG 2024-03-28 08:30:59,437 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\http\cookies.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,437 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\bz2.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,437 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\subprocess.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,437 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\constraints.py first seen with mtime 1707301440.7587206
+DEBUG 2024-03-28 08:30:59,437 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\sqlite3\dbapi2.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,437 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\handlers\exception.py first seen with mtime 1707301440.4918735
+DEBUG 2024-03-28 08:30:59,438 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\encodings\__init__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,438 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\images.py first seen with mtime 1707301440.4618907
+DEBUG 2024-03-28 08:30:59,438 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\base\schema.py first seen with mtime 1707301440.6168036
+DEBUG 2024-03-28 08:30:59,438 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\sql\subqueries.py first seen with mtime 1707301440.826682
+DEBUG 2024-03-28 08:30:59,438 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\encodings\cp1252.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,438 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\constants.py first seen with mtime 1707301440.7567225
+DEBUG 2024-03-28 08:30:59,439 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\timezone.py first seen with mtime 1707301441.1894746
+DEBUG 2024-03-28 08:30:59,439 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\process.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,439 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\fields\proxy.py first seen with mtime 1707301440.7927017
+DEBUG 2024-03-28 08:30:59,439 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\serializers\python.py first seen with mtime 1707301440.5768247
+DEBUG 2024-03-28 08:30:59,439 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\functions\window.py first seen with mtime 1707301440.814689
+DEBUG 2024-03-28 08:30:59,439 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\views\autocomplete.py first seen with mtime 1707301435.033
+DEBUG 2024-03-28 08:30:59,440 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\ast.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,440 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\sqlite3\_functions.py first seen with mtime 1707301440.6877618
+DEBUG 2024-03-28 08:30:59,440 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\decorators\__init__.py first seen with mtime 1707301441.217458
+DEBUG 2024-03-28 08:30:59,440 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\views\main.py first seen with mtime 1707301435.0359976
+DEBUG 2024-03-28 08:30:59,440 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\crypto.py first seen with mtime 1707301441.1365056
+DEBUG 2024-03-28 08:30:59,440 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\trsock.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,440 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\ctypes\wintypes.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,441 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\serializers\__init__.py first seen with mtime 1707301440.5698295
+DEBUG 2024-03-28 08:30:59,441 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\base\base.py first seen with mtime 1707301440.603811
+DEBUG 2024-03-28 08:30:59,441 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\sqlite3\operations.py first seen with mtime 1707301440.6987548
+DEBUG 2024-03-28 08:30:59,441 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\pprint.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,441 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\wsgiref\util.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,441 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\exceptions.py first seen with mtime 1707301440.3979275
+DEBUG 2024-03-28 08:30:59,442 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\files\uploadedfile.py first seen with mtime 1707301440.4688869
+DEBUG 2024-03-28 08:30:59,442 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\__init__.py first seen with mtime 1707301435.5377097
+DEBUG 2024-03-28 08:30:59,442 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\models.py first seen with mtime 1707301435.561699
+DEBUG 2024-03-28 08:30:59,442 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\tokenize.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,442 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\html.py first seen with mtime 1707301441.1624892
+DEBUG 2024-03-28 08:30:59,442 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\contextlib.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,443 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\cache\backends\filebased.py first seen with mtime 1707301440.418915
+DEBUG 2024-03-28 08:30:59,443 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\urls\utils.py first seen with mtime 1707301441.1185153
+DEBUG 2024-03-28 08:30:59,443 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\streams.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,443 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\checks.py first seen with mtime 1707301436.1433628
+DEBUG 2024-03-28 08:30:59,443 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\staticfiles\management\commands\runserver.py first seen with mtime 1707301440.3869348
+DEBUG 2024-03-28 08:30:59,444 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\logging\config.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,444 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\fields\generated.py first seen with mtime 1707301440.7877052
+DEBUG 2024-03-28 08:30:59,444 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\_encoded_words.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,444 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\dataclasses.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,445 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\gettext.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,445 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\generic\detail.py first seen with mtime 1707301441.2404478
+DEBUG 2024-03-28 08:30:59,445 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\templatetags\admin_modify.py first seen with mtime 1707301435.0240042
+DEBUG 2024-03-28 08:30:59,445 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\ipv6.py first seen with mtime 1707301441.168486
+DEBUG 2024-03-28 08:30:59,445 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\conf\global_settings.py first seen with mtime 1707301432.9871712
+DEBUG 2024-03-28 08:30:59,445 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\security\sessions.py first seen with mtime 1707301440.4568937
+DEBUG 2024-03-28 08:30:59,446 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\tree.py first seen with mtime 1707301441.1914725
+DEBUG 2024-03-28 08:30:59,446 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\taskgroups.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,446 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sites\__init__.py first seen with mtime 1707301439.8992136
+DEBUG 2024-03-28 08:30:59,446 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\inspect.py first seen with mtime 1707301441.1664877
+DEBUG 2024-03-28 08:30:59,446 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\unicodedata.pyd first seen with mtime 1692878398.0
+DEBUG 2024-03-28 08:30:59,446 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\forms.py first seen with mtime 1707301436.1473615
+DEBUG 2024-03-28 08:30:59,447 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\http\multipartparser.py first seen with mtime 1707301441.0115764
+DEBUG 2024-03-28 08:30:59,447 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\base_session.py first seen with mtime 1707301439.403497
+DEBUG 2024-03-28 08:30:59,447 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\shortcuts.py first seen with mtime 1707301432.9751809
+DEBUG 2024-03-28 08:30:59,447 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\http\server.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,447 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\decorators.py first seen with mtime 1707301441.148497
+DEBUG 2024-03-28 08:30:59,447 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\linecache.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,448 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\middleware.py first seen with mtime 1707301439.4074945
+DEBUG 2024-03-28 08:30:59,448 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\staticfiles\management\__init__.py first seen with mtime 1707301440.3789372
+DEBUG 2024-03-28 08:30:59,448 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\events.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,448 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_subprocess.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,448 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\contextvars.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,448 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\__init__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,448 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\servers\__init__.py first seen with mtime 1707301440.585821
+DEBUG 2024-03-28 08:30:59,449 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\sqlite3\base.py first seen with mtime 1707301440.6887605
+DEBUG 2024-03-28 08:30:59,449 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\http\request.py first seen with mtime 1707301441.0135782
+DEBUG 2024-03-28 08:30:59,449 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\generic\dates.py first seen with mtime 1707301441.2384489
+DEBUG 2024-03-28 08:30:59,449 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\cli.py first seen with mtime 1707301431.898794
+DEBUG 2024-03-28 08:30:59,449 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\datastructures.py first seen with mtime 1707301441.1385045
+DEBUG 2024-03-28 08:30:59,449 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\asgiref\current_thread_executor.py first seen with mtime 1707301432.6753488
+DEBUG 2024-03-28 08:30:59,450 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\reprlib.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,450 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\hmac.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,450 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\gzip.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,450 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\urllib\__init__.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,450 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\filters.py first seen with mtime 1707301433.7937112
+DEBUG 2024-03-28 08:30:59,450 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\DLLs\_sqlite3.pyd first seen with mtime 1692878398.0
+DEBUG 2024-03-28 08:30:59,450 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\datetime.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,451 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\__init__.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,451 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\mail\message.py first seen with mtime 1707301440.4968703
+DEBUG 2024-03-28 08:30:59,451 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\caches.py first seen with mtime 1707301440.4309106
+DEBUG 2024-03-28 08:30:59,451 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\management\base.py first seen with mtime 1707301440.5148604
+DEBUG 2024-03-28 08:30:59,451 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\base\__init__.py first seen with mtime 1707301440.6018133
+DEBUG 2024-03-28 08:30:59,451 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\sysconfig.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,452 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\__init__.py first seen with mtime 1707301440.5948145
+DEBUG 2024-03-28 08:30:59,452 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\asgiref\__init__.py first seen with mtime 1707301432.6723547
+DEBUG 2024-03-28 08:30:59,452 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\formatter.py first seen with mtime 1707301431.9037912
+DEBUG 2024-03-28 08:30:59,452 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\functions\datetime.py first seen with mtime 1707301440.806695
+DEBUG 2024-03-28 08:30:59,452 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\sqlite3\__init__.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,452 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\operations\__init__.py first seen with mtime 1707301440.7397335
+DEBUG 2024-03-28 08:30:59,453 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\operations\models.py first seen with mtime 1707301440.7457275
+DEBUG 2024-03-28 08:30:59,453 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\string.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,453 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\management\color.py first seen with mtime 1707301440.51586
+DEBUG 2024-03-28 08:30:59,453 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\templatetags\static.py first seen with mtime 1707301441.0885324
+DEBUG 2024-03-28 08:30:59,453 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\choices.py first seen with mtime 1707301441.133506
+DEBUG 2024-03-28 08:30:59,453 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\sql\where.py first seen with mtime 1707301440.8286812
+DEBUG 2024-03-28 08:30:59,453 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\wsgiref\headers.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,454 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\ipaddress.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,454 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\management\__init__.py first seen with mtime 1707301436.6520731
+DEBUG 2024-03-28 08:30:59,454 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\static.py first seen with mtime 1707301441.2164595
+DEBUG 2024-03-28 08:30:59,454 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\warnings.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,454 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\mixins.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,454 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\zoneinfo\_tzpath.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,455 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\deprecation.py first seen with mtime 1707301441.1494973
+DEBUG 2024-03-28 08:30:59,455 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\templates.py first seen with mtime 1707301440.4409041
+DEBUG 2024-03-28 08:30:59,455 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\message.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,455 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\re\_constants.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,455 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\staticfiles\__init__.py first seen with mtime 1707301440.3599496
+DEBUG 2024-03-28 08:30:59,455 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\__init__.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,455 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\helpers.py first seen with mtime 1707301433.797707
+DEBUG 2024-03-28 08:30:59,456 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\apps\config.py first seen with mtime 1707301432.9801755
+DEBUG 2024-03-28 08:30:59,456 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\backends.py first seen with mtime 1707301435.5437083
+DEBUG 2024-03-28 08:30:59,456 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\files.py first seen with mtime 1707301440.433907
+DEBUG 2024-03-28 08:30:59,456 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\http.py first seen with mtime 1707301441.1644895
+DEBUG 2024-03-28 08:30:59,456 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\staticfiles\handlers.py first seen with mtime 1707301440.3679466
+DEBUG 2024-03-28 08:30:59,456 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\__init__.py first seen with mtime 1707301433.782715
+DEBUG 2024-03-28 08:30:59,457 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\decorators\debug.py first seen with mtime 1707301441.2274525
+DEBUG 2024-03-28 08:30:59,457 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\asyncio.py first seen with mtime 1707301441.1265106
+DEBUG 2024-03-28 08:30:59,457 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\hashlib.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,458 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\sqlparse\filters\others.py first seen with mtime 1707301431.9337742
+DEBUG 2024-03-28 08:30:59,458 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,458 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\numbers.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,458 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\expressions.py first seen with mtime 1707301440.764717
+DEBUG 2024-03-28 08:30:59,458 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\state.py first seen with mtime 1707301440.7337372
+DEBUG 2024-03-28 08:30:59,459 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\validators.py first seen with mtime 1707301440.404924
+DEBUG 2024-03-28 08:30:59,459 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\messages\apps.py first seen with mtime 1707301438.5190034
+DEBUG 2024-03-28 08:30:59,459 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:30:59,459 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\generic\list.py first seen with mtime 1707301441.243445
+DEBUG 2024-03-28 08:30:59,459 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\_weakrefset.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,459 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\manager.py first seen with mtime 1707301440.7707138
+DEBUG 2024-03-28 08:30:59,460 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\widgets.py first seen with mtime 1707301433.8106987
+DEBUG 2024-03-28 08:30:59,460 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\encoders.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,460 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\models\functions\comparison.py first seen with mtime 1707301440.8056958
+DEBUG 2024-03-28 08:30:59,460 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\checks.py first seen with mtime 1707301435.5477045
+DEBUG 2024-03-28 08:30:59,461 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\email\quoprimime.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,461 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\protocols.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,461 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\sqlite3\introspection.py first seen with mtime 1707301440.6957567
+DEBUG 2024-03-28 08:30:59,461 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_tasks.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:30:59,461 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\checks\translation.py first seen with mtime 1707301440.4429028
+DEBUG 2024-03-28 08:30:59,462 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\messages\api.py first seen with mtime 1707301438.518004
+DEBUG 2024-03-28 08:30:59,462 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\utils\__init__.py first seen with mtime 1707301441.1205142
+DEBUG 2024-03-28 08:30:59,462 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py first seen with mtime 1711603644.1807036
+DEBUG 2024-03-28 08:30:59,462 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\template\exceptions.py first seen with mtime 1707301441.0495546
+DEBUG 2024-03-28 08:30:59,462 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\backends\base\operations.py first seen with mtime 1707301440.6128044
+DEBUG 2024-03-28 08:30:59,463 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\templates\payment.html first seen with mtime 1711603314.3475413
+DEBUG 2024-03-28 08:31:01,241 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\migrations\0001_initial.py first seen with mtime 1707301439.8852232
+DEBUG 2024-03-28 08:31:01,242 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\migrations\0003_logentry_add_action_flag_choices.py first seen with mtime 1707301434.6722057
+DEBUG 2024-03-28 08:31:01,244 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\middleware\common.py first seen with mtime 1707301441.0225692
+DEBUG 2024-03-28 08:31:01,246 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0007_alter_validators_add_error_messages.py first seen with mtime 1707301436.1143806
+DEBUG 2024-03-28 08:31:01,247 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0004_alter_user_username_opts.py first seen with mtime 1707301436.108384
+DEBUG 2024-03-28 08:31:01,248 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\messages\middleware.py first seen with mtime 1707301438.524001
+DEBUG 2024-03-28 08:31:01,249 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\migrations\0002_logentry_remove_auto_add.py first seen with mtime 1707301434.670207
+DEBUG 2024-03-28 08:31:01,250 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\stringprep.py first seen with mtime 1692878352.0
+DEBUG 2024-03-28 08:31:01,250 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\wsgi.py first seen with mtime 1707301460.69772
+DEBUG 2024-03-28 08:31:01,253 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0009_alter_user_last_name_max_length.py first seen with mtime 1707301436.1183772
+DEBUG 2024-03-28 08:31:01,254 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\conf\urls\__init__.py first seen with mtime 1707301433.7747202
+DEBUG 2024-03-28 08:31:01,254 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\loader.py first seen with mtime 1707301440.7227418
+DEBUG 2024-03-28 08:31:01,256 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0005_alter_user_last_login_null.py first seen with mtime 1707301436.110384
+DEBUG 2024-03-28 08:31:01,256 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0002_alter_permission_name_max_length.py first seen with mtime 1707301436.1033864
+DEBUG 2024-03-28 08:31:01,256 autoreload File C:\Users\hp\AppData\Local\Programs\Python\Python311\Lib\encodings\idna.py first seen with mtime 1692878350.0
+DEBUG 2024-03-28 08:31:01,257 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\migrations\__init__.py first seen with mtime 1707301436.6620667
+DEBUG 2024-03-28 08:31:01,258 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0003_alter_user_email_max_length.py first seen with mtime 1707301436.1053867
+DEBUG 2024-03-28 08:31:01,258 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\migrations\0002_remove_content_type_name.py first seen with mtime 1707301436.6610672
+DEBUG 2024-03-28 08:31:01,259 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\csrf.py first seen with mtime 1707301441.2084641
+DEBUG 2024-03-28 08:31:01,261 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0001_initial.py first seen with mtime 1707301436.1013887
+DEBUG 2024-03-28 08:31:01,262 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\migrations\__init__.py first seen with mtime 1707301434.6732056
+DEBUG 2024-03-28 08:31:01,264 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0012_alter_user_first_name_max_length.py first seen with mtime 1707301436.1233754
+DEBUG 2024-03-28 08:31:01,266 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\views\defaults.py first seen with mtime 1707301441.2124612
+DEBUG 2024-03-28 08:31:01,266 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\backends\db.py first seen with mtime 1707301439.420487
+DEBUG 2024-03-28 08:31:01,267 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0010_alter_group_name_max_length.py first seen with mtime 1707301436.1193779
+DEBUG 2024-03-28 08:31:01,268 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\recorder.py first seen with mtime 1707301440.7297375
+DEBUG 2024-03-28 08:31:01,268 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0011_update_proxy_permissions.py first seen with mtime 1707301436.1213763
+DEBUG 2024-03-28 08:31:01,271 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\migrations\__init__.py first seen with mtime 1707301439.887221
+DEBUG 2024-03-28 08:31:01,272 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\graph.py first seen with mtime 1707301440.7207434
+DEBUG 2024-03-28 08:31:01,275 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\migrations\__init__.py first seen with mtime 1707301462.5656495
+DEBUG 2024-03-28 08:31:01,276 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0006_require_contenttypes_0002.py first seen with mtime 1707301436.112381
+DEBUG 2024-03-28 08:31:01,282 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\sessions\exceptions.py first seen with mtime 1707301439.4054985
+DEBUG 2024-03-28 08:31:01,283 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\contenttypes\migrations\0001_initial.py first seen with mtime 1707301436.6590686
+DEBUG 2024-03-28 08:31:01,284 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\0008_alter_user_username_max_length.py first seen with mtime 1707301436.1163788
+DEBUG 2024-03-28 08:31:01,285 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\middleware\clickjacking.py first seen with mtime 1707301441.0205708
+DEBUG 2024-03-28 08:31:01,286 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\admin\migrations\0001_initial.py first seen with mtime 1707301434.6692073
+DEBUG 2024-03-28 08:31:01,288 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\core\cache\backends\locmem.py first seen with mtime 1707301440.4209144
+DEBUG 2024-03-28 08:31:01,289 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\contrib\auth\migrations\__init__.py first seen with mtime 1707301436.1253743
+DEBUG 2024-03-28 08:31:01,291 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\venv\Lib\site-packages\django\db\migrations\executor.py first seen with mtime 1707301440.7187436
+DEBUG 2024-03-28 08:35:28,140 autoreload File C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py previous mtime: 1711603855.443703, current mtime: 1711604127.6725452
+DEBUG 2024-03-28 08:35:28,141 autoreload C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py notified as changed. Signal results: [(<function template_changed at 0x000001AC92E3C400>, None), (<function translation_file_changed at 0x000001AC93FA23E0>, None)].
+INFO 2024-03-28 08:35:28,141 autoreload C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-03-28 08:35:46,210  8616  Watching for file changes with StatReloader
+INFO 2024-03-28 08:37:39,675  8616  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-03-28 08:37:41,816  10632  Watching for file changes with StatReloader
+INFO 2024-03-28 08:37:50,700  10632  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-03-28 08:37:52,265  16180  Watching for file changes with StatReloader
+INFO 2024-03-28 08:38:31,258  16180  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-03-28 08:38:32,702  16012  Watching for file changes with StatReloader
+INFO 2024-03-28 08:39:31,922  16012  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-03-28 08:39:33,357  9080  Watching for file changes with StatReloader
+INFO 2024-03-28 08:40:20,933  9080  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-10 15:25:41,236  8264  Watching for file changes with StatReloader
+WARNING 2024-04-10 15:25:46,816  8264  Not Found: /highLightTitle.png
+INFO 2024-04-10 15:27:25,266  8264  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-10 15:27:26,894  12768  Watching for file changes with StatReloader
+INFO 2024-04-10 15:28:45,675  12768  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-10 15:28:47,054  15808  Watching for file changes with StatReloader
+INFO 2024-04-11 09:37:19,763  5224  Watching for file changes with StatReloader
+INFO 2024-04-11 09:37:36,848  5224  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\admin.py changed, reloading.
+INFO 2024-04-11 09:37:38,265  32  Watching for file changes with StatReloader
+WARNING 2024-04-11 09:39:09,555  32  Not Found: /highLightTitle.png
+INFO 2024-04-11 09:40:49,303  32  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\admin.py changed, reloading.
+INFO 2024-04-11 09:40:50,671  8772  Watching for file changes with StatReloader
+WARNING 2024-04-11 09:41:56,010  8772  Not Found: /highLightTitle.png
+INFO 2024-04-11 09:46:11,720  8772  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 09:46:12,840  9060  Watching for file changes with StatReloader
+WARNING 2024-04-11 09:46:18,505  9060  Not Found: /highLightTitle.png
+INFO 2024-04-11 09:49:26,677  9060  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 09:49:28,112  14416  Watching for file changes with StatReloader
+INFO 2024-04-11 09:54:47,941  14416  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 09:54:49,156  10640  Watching for file changes with StatReloader
+INFO 2024-04-11 09:55:13,461  10640  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 09:55:14,541  6256  Watching for file changes with StatReloader
+INFO 2024-04-11 09:55:59,514  6256  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 09:56:00,640  2644  Watching for file changes with StatReloader
+INFO 2024-04-11 09:56:37,779  2644  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 09:56:39,119  10352  Watching for file changes with StatReloader
+INFO 2024-04-11 10:04:06,325  10352  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\mpesa.py changed, reloading.
+INFO 2024-04-11 10:04:07,640  13404  Watching for file changes with StatReloader
+INFO 2024-04-11 10:04:22,340  13404  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\mpesa.py changed, reloading.
+INFO 2024-04-11 10:04:23,610  8196  Watching for file changes with StatReloader
+INFO 2024-04-11 10:08:22,120  8196  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:08:23,160  15292  Watching for file changes with StatReloader
+INFO 2024-04-11 10:08:43,150  15292  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:08:44,160  9912  Watching for file changes with StatReloader
+INFO 2024-04-11 10:09:05,090  9912  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:09:06,160  11400  Watching for file changes with StatReloader
+INFO 2024-04-11 10:09:27,197  11400  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:09:28,241  7960  Watching for file changes with StatReloader
+INFO 2024-04-11 10:09:56,490  7960  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:09:57,531  13564  Watching for file changes with StatReloader
+INFO 2024-04-11 10:10:23,050  13564  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:10:24,100  2324  Watching for file changes with StatReloader
+INFO 2024-04-11 10:10:57,381  2324  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:10:58,410  14772  Watching for file changes with StatReloader
+INFO 2024-04-11 10:11:08,954  14772  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:11:10,062  13336  Watching for file changes with StatReloader
+INFO 2024-04-11 10:11:25,994  13336  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:11:27,117  5784  Watching for file changes with StatReloader
+INFO 2024-04-11 10:11:58,677  5784  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:11:59,740  16216  Watching for file changes with StatReloader
+INFO 2024-04-11 10:12:25,580  16216  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:12:26,610  15568  Watching for file changes with StatReloader
+INFO 2024-04-11 10:17:00,975  15568  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:17:02,071  10976  Watching for file changes with StatReloader
+INFO 2024-04-11 10:22:36,560  10976  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:22:37,600  10740  Watching for file changes with StatReloader
+INFO 2024-04-11 10:23:51,651  10740  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:23:53,045  10716  Watching for file changes with StatReloader
+INFO 2024-04-11 10:24:22,253  10716  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:24:23,688  12936  Watching for file changes with StatReloader
+INFO 2024-04-11 10:25:11,045  12936  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:25:12,420  12784  Watching for file changes with StatReloader
+INFO 2024-04-11 10:25:26,140  12784  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:25:27,195  12096  Watching for file changes with StatReloader
+INFO 2024-04-11 10:25:37,520  12096  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:25:38,625  10548  Watching for file changes with StatReloader
+INFO 2024-04-11 10:26:46,695  10548  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:26:47,855  15124  Watching for file changes with StatReloader
+INFO 2024-04-11 10:33:01,426  15124  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:33:02,714  10040  Watching for file changes with StatReloader
+INFO 2024-04-11 10:33:40,827  10040  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:33:42,005  14464  Watching for file changes with StatReloader
+INFO 2024-04-11 10:37:39,413  14464  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:37:40,548  15780  Watching for file changes with StatReloader
+INFO 2024-04-11 10:38:03,872  15780  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:38:05,031  10624  Watching for file changes with StatReloader
+INFO 2024-04-11 10:38:34,176  10624  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:38:35,336  15624  Watching for file changes with StatReloader
+INFO 2024-04-11 10:39:23,803  15624  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:39:24,841  11848  Watching for file changes with StatReloader
+INFO 2024-04-11 10:39:41,820  11848  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:39:42,870  12876  Watching for file changes with StatReloader
+INFO 2024-04-11 10:39:54,067  12876  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:39:55,172  11176  Watching for file changes with StatReloader
+INFO 2024-04-11 10:40:17,541  11176  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:40:18,538  668  Watching for file changes with StatReloader
+INFO 2024-04-11 10:40:29,589  668  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:40:30,598  4392  Watching for file changes with StatReloader
+INFO 2024-04-11 10:40:51,171  4392  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:40:52,297  15720  Watching for file changes with StatReloader
+INFO 2024-04-11 10:41:47,845  15720  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:41:48,955  15020  Watching for file changes with StatReloader
+INFO 2024-04-11 10:42:35,575  15020  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:42:36,623  15028  Watching for file changes with StatReloader
+INFO 2024-04-11 10:43:07,821  15028  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:43:08,824  1300  Watching for file changes with StatReloader
+INFO 2024-04-11 10:43:24,311  1300  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:43:25,355  12052  Watching for file changes with StatReloader
+INFO 2024-04-11 10:43:57,777  12052  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:43:58,855  1088  Watching for file changes with StatReloader
+INFO 2024-04-11 10:44:37,689  1088  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:44:38,677  7392  Watching for file changes with StatReloader
+INFO 2024-04-11 10:45:46,176  7392  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 10:45:47,278  5236  Watching for file changes with StatReloader
+WARNING 2024-04-11 10:55:46,841  5236  Not Found: /highLightTitle.png
+WARNING 2024-04-11 10:59:04,914  5236  Not Found: /highLightTitle.png
+INFO 2024-04-11 11:21:26,024  5236  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 11:21:27,424  14196  Watching for file changes with StatReloader
+INFO 2024-04-11 11:22:06,652  14196  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 11:22:08,615  3088  Watching for file changes with StatReloader
+INFO 2024-04-11 11:26:38,085  3088  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 11:26:39,299  8568  Watching for file changes with StatReloader
+WARNING 2024-04-11 11:28:27,117  8568  Not Found: /highLightTitle.png
+WARNING 2024-04-11 11:28:59,951  8568  Not Found: /favicon.ico
+WARNING 2024-04-11 11:29:00,008  8568  Not Found: /highLightTitle.png
+INFO 2024-04-11 11:31:42,679  8568  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 11:31:43,998  12132  Watching for file changes with StatReloader
+INFO 2024-04-11 11:38:53,527  9372  Watching for file changes with StatReloader
+WARNING 2024-04-11 11:38:58,187  9372  Not Found: /highLightTitle.png
+WARNING 2024-04-11 11:43:39,518  9372  Not Found: /favicon.ico
+INFO 2024-04-11 11:53:37,161  9372  C:\Users\hp\PycharmProjectslL\daraja\daraja\main_app\views.py changed, reloading.
+INFO 2024-04-11 11:53:38,810  9552  Watching for file changes with StatReloader
+WARNING 2024-04-11 11:53:44,516  9552  Not Found: /highLightTitle.png
+WARNING 2024-04-11 11:53:58,902  9552  Not Found: /highLightTitle.png
+INFO 2024-04-11 11:56:37,810  9552  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 11:56:39,357  13996  Watching for file changes with StatReloader
+INFO 2024-04-11 11:57:06,887  13996  C:\Users\hp\PycharmProjectslL\daraja\daraja\daraja\settings.py changed, reloading.
+INFO 2024-04-11 11:57:09,015  3552  Watching for file changes with StatReloader
+WARNING 2024-04-11 15:10:26,071  3552  Not Found: /favicon.ico
