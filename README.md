@@ -1,0 +1,1 @@
+The Daraja API is a Python package designed for seamless integration of M-Pesa functionality into Django applications. It offers an intuitive interface for interacting with the Daraja API, handling authentication, and supporting various M-Pesa features such as Lipa Na M-Pesa, C2B, B2C, and more.
